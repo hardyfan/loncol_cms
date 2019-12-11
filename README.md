@@ -2,9 +2,9 @@
 本项目实现了网站内容管理功能，主要包括栏目、文章、单页、轮播图、推荐位等。
 
 ## 技术框架
-python3.6
-Django3.0
-django-mdeditor0.1.16
+- python3.6
+- Django3.0
+- django-mdeditor0.1.16
 
 ## 目录结构
 - apps（应用）
