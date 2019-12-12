@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>图片</th>
+            <th>路径</th>
+        </tr>
+         {% for file in files %}
+             <tr>
+                <th><img src="/media/editor/{{ file }}" alt="{{ file }}" width="100"/></th>
+                <th>/media/editor/{{ file }}</th>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
